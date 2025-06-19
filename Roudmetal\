@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Esport Roud Metal – dołącz do najlepszego klanu Standoff 2! Discord, treningi, turnieje i wspólna gra!" />
+  <title>Esport Roud Metal | Klan Standoff 2</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #121212;
+      color: #eee;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background-color: #1f1f1f;
+      text-align: center;
+      padding: 40px 20px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.7);
+    }
+    header img {
+      width: 140px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      color: #00ffc8;
+      margin: 0 0 10px 0;
+      font-size: 2.8rem;
+      letter-spacing: 1.2px;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #bbb;
+    }
+    main {
+      flex: 1;
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      color: #00ffc8;
+      margin-top: 40px;
+      margin-bottom: 12px;
+    }
+    ul {
+      padding-left: 22px;
+      margin-top: 0;
+    }
+    ul li {
+      margin-bottom: 8px;
+    }
+    .btn-download {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 16px 32px;
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #fff;
+      background: linear-gradient(135deg, #5865F2, #4752C4);
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 5px 15px rgba(88, 101, 242, 0.6);
+      transition: background 0.3s ease, transform 0.2s ease;
+      user-select: none;
+    }
+    .btn-download:hover {
+      background: linear-gradient(135deg, #4752C4, #3a3f95);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 25px rgba(71, 82, 196, 0.9);
+    }
+    footer {
+      background-color: #1f1f1f;
+      color: #666;
+      text-align: center;
+      padding: 20px 10px;
+      font-size: 0.9rem;
+      box-shadow: inset 0 1px 3px rgba(255,255,255,0.05);
+    }
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      .btn-download {
+        font-size: 1.1rem;
+        padding: 14px 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Podmień "logo.png" na swoje logo lub usuń ten element jeśli nie masz -->
+    <img src="logo.png" alt="Logo Esport Roud Metal" />
+    <h1>Esport Roud Metal</h1>
+    <p>Oficjalny klan Standoff 2 – Graj z najlepszymi!</p>
+  </header>
+  <main>
+    <h2>🔥 Kim jesteśmy?</h2>
+    <p><strong>Esport Roud Metal</strong> to profesjonalny klan graczy Standoff 2, którzy łączą pasję, zgranie i sportową rywalizację. Trenujemy regularnie, bierzemy udział w turniejach i wspieramy nowych graczy.</p>
+
+    <h2>🎯 Co oferujemy?</h2>
+    <ul>
+      <li>✅ Regularne treningi i sparingi</li>
+      <li>✅ Wewnętrzne rankingi i awanse</li>
+      <li>✅ Udział w turniejach i eventach</li>
+      <li>✅ Przyjazna i aktywna społeczność</li>
+    </ul>
+
+    <h2>💥 Dołącz do nas!</h2>
+    <p>Jeśli chcesz rozwijać się w Standoff 2 i grać w zgranym zespole, nie czekaj. Kliknij przycisk poniżej i pobierz zaproszenie na nasz Discord:</p>
+
+    <a href="https://discord.gg/CaZyRSjA" target="_blank" rel="noopener noreferrer" class="btn-download" download>
+      📥 Pobierz zaproszenie na Discord
+    </a>
+  </main>
+
+  <footer>
+    &copy; 2025 Esport Roud Metal | Klan Standoff 2 – Wszelkie prawa zastrzeżone
+  </footer>
+</body>
+</html>
